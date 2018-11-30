@@ -1,0 +1,28 @@
+2018-11-29 09:17:47.246 [main] INFO  com.key.pgsqldemo.PgsqldemoApplication : Starting PgsqldemoApplication on PC-HZ20096620 with PID 25792 (D:\project\localproject\pgsqldemo\target\classes started by tujia in D:\project\localproject\pgsqldemo)
+2018-11-29 09:17:47.250 [main] INFO  com.key.pgsqldemo.PgsqldemoApplication : The following profiles are active: dev
+2018-11-29 09:17:49.983 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 9090 (http)
+2018-11-29 09:17:50.011 [main] INFO  org.apache.coyote.http11.Http11NioProtocol : Initializing ProtocolHandler ["http-nio-127.0.0.1-9090"]
+2018-11-29 09:17:50.015 [main] INFO  org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2018-11-29 09:17:50.015 [main] INFO  org.apache.catalina.core.StandardEngine : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-29 09:17:50.021 [main] INFO  org.apache.catalina.core.AprLifecycleListener : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\software\Java\jdk1.8.0\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\software\python27;D:\software\Python27\Scripts;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\software\TortoiseSVN\bin;D:\software\apache-maven-3.1.1\bin;D:\software\Java\jdk1.7.0_80\bin;D:\software\Java\jdk1.7.0_80\jre\bin;%TOMCAT_HOME%\bin;D:\software\mysql-5.6.29\bin;D:\software\Redis\;D:\software\Git\cmd;D:\software\protoc\bin;D:\software\PostgreSQL\pg96\bin;.]
+2018-11-29 09:17:50.851 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/key] : Initializing Spring embedded WebApplicationContext
+2018-11-29 09:17:50.852 [main] INFO  org.springframework.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 3473 ms
+2018-11-29 09:17:50.951 [main] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean : Servlet dispatcherServlet mapped to [/]
+2018-11-29 09:17:50.952 [main] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean : Servlet statViewServlet mapped to [/druid/*]
+2018-11-29 09:17:50.952 [main] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean : Servlet com.key.pgsqldemo.commons.utils.DruidStatViewServlet mapped to [/druid/*]
+2018-11-29 09:17:50.955 [main] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-29 09:17:50.955 [main] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-29 09:17:50.955 [main] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'formContentFilter' to: [/*]
+2018-11-29 09:17:50.955 [main] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-29 09:17:50.955 [main] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'webStatFilter' to urls: [/*]
+2018-11-29 09:17:50.955 [main] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'druidWebStatFilter' to urls: [/*]
+2018-11-29 09:17:51.030 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure : Init DruidDataSource
+2018-11-29 09:17:52.651 [main] INFO  com.alibaba.druid.pool.DruidDataSource : {dataSource-1} inited
+2018-11-29 09:17:53.188 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-29 09:17:53.424 [main] INFO  org.apache.coyote.http11.Http11NioProtocol : Starting ProtocolHandler ["http-nio-127.0.0.1-9090"]
+2018-11-29 09:17:53.434 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool : Using a shared selector for servlet write/read
+2018-11-29 09:17:53.457 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 9090 (http) with context path '/key'
+2018-11-29 09:17:53.462 [main] INFO  com.key.pgsqldemo.PgsqldemoApplication : Started PgsqldemoApplication in 9.034 seconds (JVM running for 12.721)
+2018-11-29 09:18:14.573 [http-nio-127.0.0.1-9090-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/key] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-11-29 09:18:14.573 [http-nio-127.0.0.1-9090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2018-11-29 09:18:14.588 [http-nio-127.0.0.1-9090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet : Completed initialization in 15 ms
